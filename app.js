@@ -2,9 +2,9 @@ let btn = document.querySelector(".input-group button");
 let input = document.querySelector(".input-group input");
 let ul = document.querySelector("ul");
 
-// Add new task on clicking Add button
+// add new task on clicking Add button
 btn.addEventListener("click", function () {
-  if (input.value.trim() === "") return; // Do not add empty tasks
+  if (input.value.trim() === "") return; // do not add empty tasks
 
   let item = document.createElement("li");
   item.innerText = input.value; //add input value into item
